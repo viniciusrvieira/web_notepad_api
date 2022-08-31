@@ -16,5 +16,5 @@ app
   .use(cors(corsOptions))
   .use('/api', routes)
   .listen(PORT, () => {
-    console.log(`Web Notepad is running on ${PORT}`);
+    console.log(`Web Notepad API is running on ${PORT}`);
   });
